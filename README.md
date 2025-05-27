@@ -1,15 +1,30 @@
-# README
+# Express Tareas
 
-This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
+Este es un proyecto de ejemplo usando [Express](https://expressjs.com) para la gestión de tareas.
 
-The app in this repo is deployed at [https://express.onrender.com](https://express.onrender.com).
+## Instalación y ejecución local
 
-## Deployment
+1. Clona el repositorio o descarga el código fuente.
+2. Instala las dependencias ejecutando:
 
-See https://render.com/docs/deploy-node-express-app or follow the steps below:
+   ```
+   npm install
+   ```
 
-Create a new web service with the following values:
-  * Build Command: `yarn`
-  * Start Command: `node app.js`
+3. Inicia la aplicación con:
 
-That's it! Your web service will be live on your Render URL as soon as the build finishes.
+   ```
+   node app.js
+   ```
+
+La aplicación estará disponible por defecto en [http://localhost:3001](http://localhost:3001).
+
+## Despliegue
+
+El proyecto está desplegado en:  
+[https://express-tareas.onrender.com/](https://express-tareas.onrender.com/)
+
+**Nota:**  
+La primera vez que accedas a la URL puede tardar unos segundos en arrancar, ya que Render detiene los proyectos que no se están utilizando en su plan gratuito.
+
+---
